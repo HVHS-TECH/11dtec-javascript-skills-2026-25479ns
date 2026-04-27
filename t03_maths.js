@@ -23,11 +23,23 @@ console.log(clothes);
 let isFlooded = true;
 console.log(isFlooded);
 
+
+var number1 = 8;
+var number2 = 4;
+var answer;
+
+answer = number1 + number2;
+console.log("add: " + answer);
+answer = number1 - number2;
+console.log("subtract: " + answer);
+answer = number1 * number2;
+console.log("multiply: " + answer);
+answer = number1 / number2;
+console.log("divide: " + answer);
+
 /***************************
 Main Code
 ****************************/
-
-
 
 
 /***************************
