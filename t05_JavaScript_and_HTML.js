@@ -43,7 +43,7 @@ Main Code
 OUTPUT.innerhtml = "<h2>Added by JavaScript</h2>";
 OUTPUT.innerhtml += "<p>Hello, Mr. Sandro!</p>";
 OUTPUT.innerhtml += "<p>Today is a good day to learn JavaScript</p>";
-OUTPUT.innerhtml += "<p>Best of luck with your 1.2 assessment but don't worry, you've got this as you have seven spells</p>";
+OUTPUT.innerhtml += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this, as you will receive seven spells</p>";
 
 /***************************
 Functions
