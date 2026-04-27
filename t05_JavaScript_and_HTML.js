@@ -40,10 +40,10 @@ console.log("divide: " + answer);
 /***************************
 Main Code
 ****************************/
-OUTPUT.innerhtml = "<h2>Added by JavaScript</h2>";
-OUTPUT.innerhtml += "<p>Hello, Mr. Sandro!</p>";
-OUTPUT.innerhtml += "<p>Today is a good day to learn JavaScript</p>";
-OUTPUT.innerhtml += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this, as you will receive seven spells</p>";
+OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
+OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
+OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
+OUTPUT.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this, as you will receive seven spells</p>";
 
 /***************************
 Functions
