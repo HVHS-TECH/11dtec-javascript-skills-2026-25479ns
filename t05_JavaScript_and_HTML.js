@@ -44,7 +44,7 @@ const OUTPUT = document.getElementById("javaScriptOutput");
 OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
 OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
 OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
-OUTPUT.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this, as you will receive seven spells</p>";
+OUTPUT.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this</p>";
 
 /***************************
 Functions
