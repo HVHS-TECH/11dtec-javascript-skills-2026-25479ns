@@ -49,3 +49,4 @@ OUTPUT.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't 
 /***************************
 Functions
 ****************************/
+
