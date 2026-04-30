@@ -50,8 +50,7 @@ writeline("Happy Birthday Abhi!");
 /***************************
 Functions
 ****************************/
-function writeline(){
+function writeline(HappyBirthdayAbhi) {
     //Add a line to the html page
-    OUTPUT.innerHTML += "<p>Less code matters</p>";
-
+    OUTPUT.innerHTML += "<p>" + HappyBirthdayAbhi + "</p>";
 }
