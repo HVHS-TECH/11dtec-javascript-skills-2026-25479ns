@@ -37,6 +37,7 @@ console.log("multiply: " + answer);
 answer = number1 / number2;
 console.log("divide: " + answer);
 
+let 
 /***************************
 Main Code
 ****************************/
