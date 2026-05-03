@@ -54,5 +54,9 @@ Functions
 function writeline(){
     //Add a line to the html page
     OUTPUT.innerHTML += "<p>Less code matters</p>";
+}
 
+function displaywelcome(name){
+    //Display a welcome message to the user
+    OUTPUT.innerHTML += "<p>Welcome, "+name+"!</p>";
 }
