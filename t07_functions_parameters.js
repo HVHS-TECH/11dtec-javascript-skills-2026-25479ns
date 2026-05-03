@@ -55,7 +55,8 @@ function writeline(){
     OUTPUT.innerHTML += "<p>Less code matters</p>";
 }
 
-function displaywelcome(name){
+let userName = "Sandro";    
+function displaywelcome(userName){
     //Display a welcome message to the user
-    OUTPUT.innerHTML += "<p>Welcome, "+name+"!</p>";
+    OUTPUT.innerHTML += "<p>Welcome, "+userName+"!</p>";
 }
