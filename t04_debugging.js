@@ -13,7 +13,7 @@ let perimeter = 2 * length + 2 * width;
 console.log("The same piece of paper has a perimeter of "+perimeter);
 
 // Check, does this result look sensible
-if (perimeter > area)
+if (perimeter < area)
 {
 console.log("Yay, your area is larger, this is right for this example");
 }
