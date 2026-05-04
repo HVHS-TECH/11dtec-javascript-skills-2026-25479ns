@@ -42,5 +42,5 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
 OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
 OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
-OUTPUT.innerHTML += "<p>This is one </p>";
+OUTPUT.innerHTML += "<p>This is one of the most reliable, affordable, and fuel efficienct cars on the market. The Toyota Aqua Hybrid is a great choice!</p>";
 OUTPUT.innerHTML += "<img src='https://yesrentals.co.nz/storage/app/media/vehicles/toyota-aqua-hybrid.jpeg' alt='Toyota Aqua Hybrid'>";
