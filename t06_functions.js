@@ -52,7 +52,9 @@ Functions
 ****************************/
 function writeline(){
     //Add a line to the html page
-    OUTPUT.innerHTML += "<p>Welcome to JavaScript Functions!</p>";
+    OUTPUT.innerHTML += "<p>Welcome !</p>";
+
+function displayWelcome
 
 
 
