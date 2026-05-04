@@ -42,5 +42,5 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
 OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
 OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
-OUTPUT.innerHTML += "<p>Best of luck with your 1.2 English assessment but don t worry, you ve got this</p>";
-OUTPUT.innerHTML += "<img src='https://www.heathcotes.co.nz/spree/products/85143/large/JBLPARTYBOX520AS2_-_JBL_Partybox_520_Portable_Battery-Powered_Party_Speaker_%281%29.jpg?1750129890' alt='JBL Partybox 520'>";
+OUTPUT.innerHTML += "<p>This is one </p>";
+OUTPUT.innerHTML += "<img src='https://yesrentals.co.nz/storage/app/media/vehicles/toyota-aqua-hybrid.jpeg' alt='Toyota Aqua Hybrid'>";
