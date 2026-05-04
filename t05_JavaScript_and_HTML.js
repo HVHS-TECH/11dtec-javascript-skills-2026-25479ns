@@ -42,5 +42,5 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
 OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
 OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
-OUTPUT.innerHTML += "<p>This is one of the most reliable, affordable, and fuel efficienct cars on the market. The Toyota Aqua Hybrid is a great choice!</p>";
-OUTPUT.innerHTML += "<img src='https://yesrentals.co.nz/storage/app/media/vehicles/toyota-aqua-hybrid.jpeg' alt='Toyota Aqua Hybrid'>";
+OUTPUT.innerHTML += "<p>This is JBL Partybox 110. It is a powerful portable speaker.</p>";
+OUTPUT.innerHTML += "<img src='https://dialcom.lk/wp-content/uploads/1_JBL_PARTYBOX_110_HERO_x2-150x150.webp' alt='JBL Partybox 110'>";
