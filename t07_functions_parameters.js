@@ -56,7 +56,7 @@ function writeline(){
 }
 
 let userName = "Sandro";
-function displaywelcome(name){
+function displaywelcome(_name){
     //Display a welcome message to the user
     OUTPUT.innerHTML += "<p>Welcome, "+name+"!</p>";
 }
