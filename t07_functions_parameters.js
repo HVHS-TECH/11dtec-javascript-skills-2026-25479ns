@@ -52,11 +52,9 @@ Functions
 ****************************/
 function writeline(){
     //Add a line to the html page
-    OUTPUT.innerHTML += "<p>Less code matters</p>";
+    OUTPUT.innerHTML += "<p>Welcome</p>";
 }
-
-let userName = "Sandro";
-function displaywelcome(_name){
+function displayWelcome("Sandro"){
     //Display a welcome message to the user
-    OUTPUT.innerHTML += "<p>Welcome, "+name+"!</p>";
+    OUTPUT.innerHTML += "<p>Welcome, "+_name+"</p>";
 }
