@@ -37,10 +37,8 @@ console.log("multiply: " + answer);
 answer = number1 / number2;
 console.log("divide: " + answer);
 
-// Selects the container element by its ID
 const OUTPUT = document.getElementById('spaceForJavaScriptOutput');
 
-// Appends four separate paragraphs to the HTML of the container
 OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
 OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
 OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
