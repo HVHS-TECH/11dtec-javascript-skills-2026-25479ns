@@ -52,6 +52,8 @@ Functions
 ****************************/
 function writeline(){
     //Add a line to the html page
-    OUTPUT.innerHTML += "<p>Less code matters</p>";
+    OUTPUT.innerHTML += "<p>Welcome to JavaScript Functions!</p>";
+
+
 
 }
