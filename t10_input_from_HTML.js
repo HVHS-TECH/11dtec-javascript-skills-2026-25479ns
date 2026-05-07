@@ -58,3 +58,6 @@ function displayWelcome(_name){
     //Display a welcome message to the user
     OUTPUT.innerHTML += "<p>Welcome, "+_name+"</p>";
 }
+
+const NAME_FIELD = document.getElementById("nameField");
+let usename = NAME_FIELD.value;
