@@ -58,3 +58,7 @@ function displayWelcome(_name){
     //Display a welcome message to the user
     OUTPUT.innerHTML += "<p>Welcome, "+_name+"</p>";
 }
+function start(){
+    //Open the console<code>(Ctrl-Shift-i)</code>
+    //<button onclick="start()">Start</button>
+}
