@@ -59,4 +59,6 @@ function displayWelcome(_name){
     OUTPUT.innerHTML += "<p>Welcome, "+_name+"</p>";
 }
 function start(){
-
+    spaceforJavaScriptOutput.innerHTML
+    spaceforJavaScriptOutput.innerHTML
+    answer+
