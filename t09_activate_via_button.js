@@ -61,4 +61,5 @@ function displayWelcome(_name){
 function start(){
     spaceforJavaScriptOutput.innerHTML
     spaceforJavaScriptOutput.innerHTML
-    answer+
+    answer = number1 - number2
+    spaceforJavaScriptOutput.innerHTML
