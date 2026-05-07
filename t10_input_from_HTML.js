@@ -67,3 +67,4 @@ function getFormInput(){
     let usename = NAME_FIELD.value;
     OUTPUT.innerHTML += "<p>Your name is " + usename + "</p>";
 }
+
