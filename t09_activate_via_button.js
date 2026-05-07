@@ -58,8 +58,3 @@ function displayWelcome(_name){
     //Display a welcome message to the user
     OUTPUT.innerHTML += "<p>Welcome, "+_name+"</p>";
 }
-function start(){
-    spaceforJavaScriptOutput.innerHTML
-    spaceforJavaScriptOutput.innerHTML
-    answer = number1 - number2
-    spaceforJavaScriptOutput.innerHTML
