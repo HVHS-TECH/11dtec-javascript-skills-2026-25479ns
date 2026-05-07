@@ -59,5 +59,4 @@ function displayWelcome(_name){
     OUTPUT.innerHTML += "<p>Welcome, "+_name+"</p>";
 }
 function start(){
-<p>Open the console<code>(Ctrl-Shift-i)</code>
-<button onClick="start()">Start</button>
+
