@@ -61,3 +61,9 @@ function displayWelcome(_name){
 
 const NAME_FIELD = document.getElementById("nameField");
 let usename = NAME_FIELD.value;
+
+function getFormInput(){
+    const NAME_FIELD = document.getElementById("nameField");
+    let usename = NAME_FIELD.value;
+    OUTPUT.innerHTML += "<p>Your name is " + usename + "</p>";
+}
