@@ -50,6 +50,8 @@ writeline();
 /***************************
 Functions
 ****************************/
-function displayWelcome("Mr Bob"){
-    OUTPUT.innerHTML += "<p>Welcome, " + "Mr Bob" + "!</p>";
+function displayWelcome(_name, _age){
+    OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"!</p>";
+    OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
+
 }
