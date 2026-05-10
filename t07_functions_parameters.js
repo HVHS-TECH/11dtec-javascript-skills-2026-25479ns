@@ -52,5 +52,5 @@ Functions
 ****************************/
 
 function writeline(){
-function displayWelcome(_name){
-    OUTPUT.innerHTML += "<p>Welcome to the JavaScript world, " + _name + "!</p>";
+function displayWelcome("Mr.Bean"){
+    OUTPUT.innerHTML += "<p>Welcome to the JavaScript world, " + "Mr.Bean" + "!</p>";
