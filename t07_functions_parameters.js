@@ -53,6 +53,8 @@ Functions
 function writeline(){
     OUTPUT.innerHTML += "<p>Welcome</p>";
 }
-function displayWelcome(_name){
-    OUTPUT.innerHTML += "<p>Welcome, "+_name+"</p>";
+
+let username = "Sandro";
+function displayWelcome(username){
+    OUTPUT.innerHTML += "<p>Welcome, "+username+"</p>";
 }
