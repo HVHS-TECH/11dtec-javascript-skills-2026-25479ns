@@ -50,10 +50,8 @@ writeline();
 /***************************
 Functions
 ****************************/
-function writeline(){
-    OUTPUT.innerHTML += "<p>Welcome</p>";
-}
 
+function writeline(){
 let username = "Sandro";
 function displayWelcome(username){
     OUTPUT.innerHTML += "<p>Welcome, "+username+"</p>";
