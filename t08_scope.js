@@ -52,11 +52,11 @@ Functions
 ****************************/
 function writeline(){
     //Add a line to the html page
-    OUTPUT.innerHTML += "<p>We</p>";
+    Output.innerHTML += "<p>We</p>";
 }
 function displayWelcome(_name){
     //Display a welcome message to the user
-    OUTPUT.innerHTML += "<p>Welcome, "+_name+"</p>";
+    Output.innerHTML += "<p>Welcome, "+_name+"</p>";
 }
 
 const output = document.getElementById("spaceForJavaScriptOutput");
