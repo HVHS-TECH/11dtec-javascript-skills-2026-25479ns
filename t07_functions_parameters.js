@@ -40,7 +40,7 @@ console.log("divide: " + answer);
 /***************************
 Main Code
 ****************************/
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+const OUTPUT = document.getElementById("OUTPUT");
 OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
 OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
 OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
@@ -52,9 +52,9 @@ Functions
 ****************************/
 function writeline(){
     //Add a line to the html page
-    OUTPUT.innerHTML += "<p>We</p>";
+    OUTPUT.innerHTML += "<p>Welcome</p>";
 }
-function displayWelcome(_name){
+function displayWelcome(name){
     //Display a welcome message to the user
     OUTPUT.innerHTML += "<p>Welcome, "+_name+"</p>";
 }
