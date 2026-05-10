@@ -56,5 +56,5 @@ function writeline(){
 }
 function displayWelcome(name){
     //Display a welcome message to the user
-    OUTPUT.innerHTML += "<p>Welcome, "+_name+"</p>";
+    OUTPUT.innerHTML += "<p>Welcome, "+name+"</p>";
 }
