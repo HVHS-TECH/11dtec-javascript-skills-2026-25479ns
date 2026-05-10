@@ -40,11 +40,11 @@ console.log("divide: " + answer);
 /***************************
 Main Code
 ****************************/
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
-OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
-OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
-OUTPUT.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this</p>";
+const Output = document.getElementById("spaceForJavaScriptOutput");
+Output.innerHTML += "<p>Added by JavaScript</p>";
+Output.innerHTML += "<p>Hello, Mr. Sandro!</p>";
+Output.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
+Output.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this</p>";
 writeline();
 
 /***************************
@@ -59,21 +59,21 @@ function displayWelcome(_name){
     OUTPUT.innerHTML += "<p>Welcome, "+_name+"</p>";
 }
 
-const output = document.getElementById("output");
+const output = document.getElementById("spaceForJavaScriptOutput");
 
-var Myvar = 0;
-output.innerHTML += "Start: " + Myvar + "<br>";
+var myVar = 0;
+output.innerHTML += "Start: " + myVar + "<br>";
 
 functionOne();
 function functionOne(){
-    Myvar = 1;
-    output.innerHTML += "Function One: " + Myvar + "<br>";
+    myVar = 1;
+    output.innerHTML += "functionOne: " + myVar + "<br>";
 }
 
 functionTwo();
 function functionTwo(){
-    Myvar = 2;
-    output.innerHTML += "Function Two: " + Myvar + "<br>";
+    myVar = 2;
+    output.innerHTML += "Function Two: " + myVar + "<br>";
 }
 
-output.innerHTML += "End: " + Myvar + "<br>";
+output.innerHTML += "End: " + myVar + "<br>";
