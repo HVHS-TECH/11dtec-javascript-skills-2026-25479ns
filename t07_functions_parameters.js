@@ -51,10 +51,8 @@ writeline();
 Functions
 ****************************/
 function writeline(){
-    //Add a line to the html page
     OUTPUT.innerHTML += "<p>Welcome</p>";
 }
-function displayWelcome(name){
-    //Display a welcome message to the user
-    OUTPUT.innerHTML += "<p>Welcome, "+name+"</p>";
+function displayWelcome(_name){
+    OUTPUT.innerHTML += "<p>Welcome, "+_name+"</p>";
 }
