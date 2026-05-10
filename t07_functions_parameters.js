@@ -50,7 +50,6 @@ writeline();
 /***************************
 Functions
 ****************************/
-
-function writeline(){
-function displayWelcome("Mr.Bean"){
-    OUTPUT.innerHTML += "<p>Welcome to the JavaScript world, " + "Mr.Bean" + "!</p>";
+function displayWelcome("Mr Bob"){
+    OUTPUT.innerHTML += "<p>Welcome, " + "Mr Bob" + "!</p>";
+}
