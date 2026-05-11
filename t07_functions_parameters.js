@@ -52,6 +52,6 @@ OUTPUT.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't 
 Functions
 ****************************/
 function displayWelcome(_name, _age) {
-    console.log("Welcome, " + _name + "!");
-    console.log("You are " + _age + " years old.");
+    OUTPUT.innerHTML += "<p>Welcome to the page, " + _name + "!</p>";
+    OUTPUT.innerHTML += "<p>You are " + _age + " years old.</p>";
 }
