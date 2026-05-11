@@ -78,3 +78,8 @@ OUTPUT.innerHTML += "Function Two: " + myVar + "<br>";
 }
 
 OUTPUT.innerHTML += "End: " + myVar + "<br>";
+
+function start(){
+    console.log("Caution Button was clicked!");
+    OUTPUT.innerHTML += "<p>Button was clicked!</p>";
+}
