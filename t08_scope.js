@@ -40,11 +40,11 @@ console.log("divide: " + answer);
 /***************************
 Main Code
 ****************************/
-const Output = document.getElementById("spaceForJavaScriptOutput");
-Output.innerHTML += "<p>Added by JavaScript</p>";
-Output.innerHTML += "<p>Hello, Mr. Sandro!</p>";
-Output.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
-Output.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this</p>";
+const OUTPUT = document.getElementById("OUTPUT");
+OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
+OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
+OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
+OUTPUT.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this</p>";
 writeline();
 
 /***************************
@@ -52,28 +52,26 @@ Functions
 ****************************/
 function writeline(){
     //Add a line to the html page
-    Output.innerHTML += "<p>We</p>";
+    OUTPUT.innerHTML += "<p>We</p>";
 }
-function displayWelcome(_name){
+function displayWelcome(name){
     //Display a welcome message to the user
-    Output.innerHTML += "<p>Welcome, "+_name+"</p>";
+    OUTPUT.innerHTML += "<p>Welcome, "+name+"</p>";
 }
-
-const output = document.getElementById("spaceForJavaScriptOutput");
 
 var myVar = 0;
-output.innerHTML += "Start: " + myVar + "<br>";
+OUTPUT.innerHTML += "Start: " + myVar + "<br>";
 
 functionOne();
 function functionOne(){
     myVar = 1;
-    output.innerHTML += "functionOne: " + myVar + "<br>";
+    OUTPUT.innerHTML += "functionOne: " + myVar + "<br>";
 }
 
 functionTwo();
 function functionTwo(){
     myVar = 2;
-    output.innerHTML += "Function Two: " + myVar + "<br>";
+    OUTPUT.innerHTML += "Function Two: " + myVar + "<br>";
 }
 
-output.innerHTML += "End: " + myVar + "<br>";
+OUTPUT.innerHTML += "End: " + myVar + "<br>";
