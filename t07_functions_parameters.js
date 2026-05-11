@@ -23,6 +23,8 @@ console.log(clothes);
 let isFlooded = true;
 console.log(isFlooded);
 
+let welcome
+
 
 var number1 = 8;
 var number2 = 4;
