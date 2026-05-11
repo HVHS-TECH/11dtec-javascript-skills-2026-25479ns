@@ -3,16 +3,16 @@ This is a block comment.
 Put your header comment here!
 ****************************/
 
-console.log("Running t07_functions_parameters.js")
-console.log("Working with functions with parameters in Javascript")
+console.log("Running t02_variables.js")
+console.log("Working with variables in Javascript")
 
 // Variables
 
-let _name = "Sandro";
-console.log(_name);
+let name = "Sandro";
+console.log(name);
 
-let _age = 15;
-console.log(_age);
+let age = 15;
+console.log(age);
 
 let hobbies = ["Coding", "Reading", "Cooking"];
 console.log(hobbies);
@@ -22,8 +22,6 @@ console.log(clothes);
 
 let isFlooded = true;
 console.log(isFlooded);
-
-let welcome
 
 
 var number1 = 8;
@@ -47,11 +45,13 @@ OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
 OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
 OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
 OUTPUT.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this</p>";
+writeline();
 
 /***************************
 Functions
 ****************************/
-function displayWelcome(_name, _age) {
-    OUTPUT.innerHTML += "<p>Welcome to the page, " + _name + "!</p>";
-    OUTPUT.innerHTML += "<p>You are " + _age + " years old.</p>";
+function writeline(){
+    //Add a line to the html page
+    OUTPUT.innerHTML += "<p>Welcome to the page, Sandro!</p>";
+    OUTPUT.innerHTML += "<p>You are 15 years old!</p>";
 }
