@@ -8,11 +8,11 @@ console.log("Working with variables in Javascript")
 
 // Variables
 
-let name = "Sandro";
-console.log(name);
+let _name = "Sandro";
+console.log(_name);
 
-let age = 15;
-console.log(age);
+let _age = 15;
+console.log(_age);
 
 let hobbies = ["Coding", "Reading", "Cooking"];
 console.log(hobbies);
@@ -45,7 +45,6 @@ OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
 OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
 OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
 OUTPUT.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this</p>";
-writeline();
 
 /***************************
 Functions
