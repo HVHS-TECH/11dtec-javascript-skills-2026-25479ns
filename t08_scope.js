@@ -55,3 +55,26 @@ function writeline(){
     OUTPUT.innerHTML += "<p>Welcome to the page, Sandro!</p>";
     OUTPUT.innerHTML += "<p>You are 15 years old!</p>";
 }
+
+function displayWelcome(name, age){
+//Display a welcome message to the user
+OUTPUT.innerHTML += "<p>Welcome, "+name+"! </p>";
+OUTPUT.innerHTML += "<p>You are "+age+" years old.</p>";
+}
+
+var myVar = 0;
+OUTPUT.innerHTML += "Start: " + myVar + "<br>";
+
+functionOne();
+function functionOne(){
+myVar = 1;
+OUTPUT.innerHTML += "functionOne: " + myVar + "<br>";
+}
+
+functionTwo();
+function functionTwo(){
+myVar = 2;
+OUTPUT.innerHTML += "Function Two: " + myVar + "<br>";
+}
+
+OUTPUT.innerHTML += "End: " + myVar + "<br>";
