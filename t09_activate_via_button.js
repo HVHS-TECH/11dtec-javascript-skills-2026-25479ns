@@ -3,8 +3,8 @@ This is a block comment.
 Put your header comment here!
 ****************************/
 
-console.log("Running t02_variables.js")
-console.log("Working with variables in Javascript")
+console.log("Running t08_scope.js")
+console.log("Working with scope in Javascript")
 
 // Variables
 
@@ -40,7 +40,7 @@ console.log("divide: " + answer);
 /***************************
 Main Code
 ****************************/
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+const OUTPUT = document.getElementById("OUTPUT");
 OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
 OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
 OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
@@ -52,9 +52,29 @@ Functions
 ****************************/
 function writeline(){
     //Add a line to the html page
-    OUTPUT.innerHTML += "<p>We</p>";
+    OUTPUT.innerHTML += "<p>Welcome to the page, Sandro!</p>";
+    OUTPUT.innerHTML += "<p>You are 15 years old!</p>";
 }
-function displayWelcome(_name){
-    //Display a welcome message to the user
-    OUTPUT.innerHTML += "<p>Welcome, "+_name+"</p>";
+
+function displayWelcome(name, age){
+//Display a welcome message to the user
+OUTPUT.innerHTML += "<p>Welcome, "+name+"! </p>";
+OUTPUT.innerHTML += "<p>You are "+age+" years old.</p>";
 }
+
+var myVar = 0;
+OUTPUT.innerHTML += "Start: " + myVar + "<br>";
+
+functionOne();
+function functionOne(){
+myVar = 1;
+OUTPUT.innerHTML += "functionOne: " + myVar + "<br>";
+}
+
+functionTwo();
+function functionTwo(){
+myVar = 2;
+OUTPUT.innerHTML += "Function Two: " + myVar + "<br>";
+}
+
+OUTPUT.innerHTML += "End: " + myVar + "<br>";
