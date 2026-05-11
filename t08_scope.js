@@ -3,8 +3,8 @@ This is a block comment.
 Put your header comment here!
 ****************************/
 
-console.log("Running t02_variables.js")
-console.log("Working with variables in Javascript")
+console.log("Running t08_scope.js")
+console.log("Working with scope in Javascript")
 
 // Variables
 
