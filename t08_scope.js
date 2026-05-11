@@ -50,13 +50,11 @@ writeline();
 /***************************
 Functions
 ****************************/
-function writeline(){
-    //Add a line to the html page
-    OUTPUT.innerHTML += "<p>We</p>";
-}
-function displayWelcome(name){
+
+function displayWelcome(name, age){
     //Display a welcome message to the user
-    OUTPUT.innerHTML += "<p>Welcome, "+name+"</p>";
+    OUTPUT.innerHTML += "<p>Welcome, "+name+"! </p>";
+    OUTPUT.innerHTML += "<p>You are "+age+" years old.</p>";
 }
 
 var myVar = 0;
