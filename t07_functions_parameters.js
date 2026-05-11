@@ -3,7 +3,7 @@ This is a block comment.
 Put your header comment here!
 ****************************/
 
-console.log("Running t02_variables.js")
+console.log("../t07_functions_parameters.js")
 console.log("Working with variables in Javascript")
 
 // Variables
