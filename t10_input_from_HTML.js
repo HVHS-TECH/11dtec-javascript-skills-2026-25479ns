@@ -86,6 +86,9 @@ function start(){
 
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
+    const AGE_FIELD = document.getElementById("ageField");
     let userName = NAME_FIELD.value;
+    let userAge = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p>Welcome to my page, " +userName+ "</p>";
+    OUTPUT.innerHTML += "<p>You are " +userAge+ " years old.</p>";
 }
