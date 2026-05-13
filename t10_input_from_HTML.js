@@ -83,3 +83,7 @@ function start(){
     console.log("Caution Button was clicked!");
     OUTPUT.innerHTML += "<p>Caution Button was clicked!</p>";
 }
+
+function getFormInput(){
+    const NAME_FIELD = document.getElementById("nameField");
+    
