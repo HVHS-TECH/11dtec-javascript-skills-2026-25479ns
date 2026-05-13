@@ -8,8 +8,8 @@ console.log("Working with scope in Javascript")
 
 // Variables
 
-let name = "Sandro";
-console.log(name);
+let _name = "Sandro";
+console.log(_name);
 
 let age = 15;
 console.log(age);
@@ -87,5 +87,5 @@ function start(){
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     let userName = NAME_FIELD.value;
-    OUTPUT.innerHTML += "<p>Welcome to my page, " + name + "!</p>";
+    OUTPUT.innerHTML += "<p>Welcome to my page, " + _name + "!</p>";
 }
