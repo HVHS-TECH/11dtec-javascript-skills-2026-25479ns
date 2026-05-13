@@ -3,12 +3,12 @@ This is a block comment.
 Put your header comment here!
 ****************************/
 
-console.log("Running t08_scope.js")
-console.log("Working with scope in Javascript")
+console.log("Running t10_input_from_HTML.js")
+console.log("Working with input from HTML in Javascript")
 
 // Variables
 
-let _name = "Sandro";
+let name = "Sandro";
 console.log(_name);
 
 let age = 15;
