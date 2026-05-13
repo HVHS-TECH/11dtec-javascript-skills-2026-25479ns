@@ -9,7 +9,7 @@ console.log("Working with input from HTML in Javascript")
 // Variables
 
 let name = "Sandro";
-console.log(_name);
+console.log(name);
 
 let age = 15;
 console.log(age);
