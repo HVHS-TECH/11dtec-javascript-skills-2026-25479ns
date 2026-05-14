@@ -90,5 +90,5 @@ function getFormInput(){
     let userName = NAME_FIELD.value;
     let userAge = AGE_FIELD.value;
     OUTPUT.innerHTML += "<p>Welcome to my page, " +name+ "</p>";
-}
     OUTPUT.innerHTML += "<p>You are " +age+ " years old.</p>";
+}
