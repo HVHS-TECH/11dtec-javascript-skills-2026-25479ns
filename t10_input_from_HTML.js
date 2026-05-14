@@ -9,10 +9,10 @@ console.log("Working with input from HTML in Javascript")
 // Variables
 
 let name = "Sandro";
-console.log(name);
+console.log(username);
 
 let age = 15;
-console.log(age);
+console.log(userage);
 
 let hobbies = ["Coding", "Reading", "Cooking"];
 console.log(hobbies);
