@@ -21,14 +21,28 @@
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 
-  <div id="spaceForJavaScriptOutput">
+  <div id="OUTPUT">
 
     The output of your script will go here.
 
   </div>
 
-
   <script src="../t11_data_types.js"></script>
+
+  <script src="../t09_activate_via_button.js"></script>
+  <button onclick="start()">Start</button>
+  
+  <form>
+    <label for="nameField">Enter your name:</label><br>
+    <input type="text" id="nameField" name="formname" placeholder="Name"><br>
+    <input type="button" value="Submit" onclick="submitName()">
+  </form>
+
+  <form>
+    <label for="ageField">Enter your Age:</label><br>
+    <input type="text" id="ageField" name="formage" placeholder="Age"><br>
+    <input type="button" value="Submit" onclick="submitAge()">
+  </form>
 
 </body>
 
