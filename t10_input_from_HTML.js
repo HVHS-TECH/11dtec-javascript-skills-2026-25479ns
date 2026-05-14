@@ -88,7 +88,7 @@ function start(){
 function getFormInput() {
     const NAME_FIELD = document.getElementById("nameField");
     const AGE_FIELD = document.getElementById("ageField");
-    const OUTPUT = document.getElementById("output");
+    const OUTPUT = document.getElementById("OUTPUT");
 
     let userName = NAME_FIELD.value;
     let userAge = AGE_FIELD.value;
