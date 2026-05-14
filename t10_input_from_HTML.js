@@ -9,10 +9,10 @@ console.log("Working with input from HTML in Javascript")
 // Variables
 
 let name = "Sandro";
-console.log(username);
+console.log(name);
 
 let age = 15;
-console.log(userage);
+console.log(age);
 
 let hobbies = ["Coding", "Reading", "Cooking"];
 console.log(hobbies);
@@ -45,7 +45,7 @@ OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
 OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
 OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
 OUTPUT.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this</p>";
-writeline();
+
 
 /***************************
 Functions
