@@ -11,7 +11,7 @@ console.log("Working with data types in Javascript")
 let name = "Sandro";
 console.log(name);
 
-let age = 15;
+let age = "15";
 console.log(age);
 
 let hobbies = ["Coding", "Reading", "Cooking"];
