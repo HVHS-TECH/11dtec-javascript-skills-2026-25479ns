@@ -61,8 +61,8 @@ function writeline(){
 
 function displayWelcome(name, age){
 //Display a welcome message to the user
-OUTPUT.innerHTML += "<p>Welcome, "+name+"! </p>";
-OUTPUT.innerHTML += "<p>You are "+age+" years old.</p>";
+OUTPUT.innerHTML += "<p>Welcome to the page, "+name+"! </p>";
+OUTPUT.innerHTML += "<p>You are "+age+" years old!</p>";
 }
 
 var myVar = 0;
@@ -91,11 +91,9 @@ function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     const AGE_FIELD = document.getElementById("ageField");
     const MONEY_FIELD = document.getElementById("moneyField");
-    
-    let userName = NAME_FIELD.value;
-    let userAge = AGE_FIELD.value;
-    let moneyField = MONEY_FIELD.value;
-    
+
+    function displayWelcome(name, age, $$$){
     OUTPUT.innerHTML += "<p>Welcome to my page, " + name + "</p>";
-    OUTPUT.innerHTML += "<p>You are " + age + " years old.</p>";
-}   OUTPUT.innerHTML += "<p>You have $" +$$$ + " in your bank account.</p>";
+    OUTPUT.innerHTML += "<p>You are " + age + " years old!</p>";
+    OUTPUT.innerHTML += "<p>You have $" +$$$ + " in your bank account.</p>";
+}
