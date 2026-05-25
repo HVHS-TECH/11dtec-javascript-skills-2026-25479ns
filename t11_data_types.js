@@ -85,10 +85,9 @@ function start(){
 }
 
 function getFormInput(OUTPUT){
-    const NAME_FIELD = document.getElementById("nameField");
-    const AGE_FIELD = document.getElementById("ageField");
-    const MONEY_FIELD = document.getElementById("moneyField");
-
+    const NAME_FIELD = document.getElementById("NAME_FIELD");
+    const AGE_FIELD = document.getElementById("AGE_FIELD");
+    const MONEY_FIELD = document.getElementById("MONEY_FIELD");
 
     OUTPUT.innerHTML += "<p>Welcome to my page, " + NAME_FIELD.value + "</p>";
     OUTPUT.innerHTML += "<p>You are " + AGE_FIELD.value + " years old.</p>";
