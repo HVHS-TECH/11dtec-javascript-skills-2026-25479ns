@@ -14,6 +14,9 @@ console.log(name);
 let age = 15;
 console.log(age);
 
+let $$$ = 5;
+console.log($$$);
+
 let hobbies = ["Coding", "Reading", "Cooking"];
 console.log(hobbies);
 
