@@ -3,16 +3,16 @@ This is a block comment.
 Put your header comment here!
 ****************************/
 
-console.log("Running t11_data_types.js")
-console.log("Working with data types in Javascript")
+console.log("Running t10_input_from_HTML.js")
+console.log("Working with input from HTML in Javascript")
 
 // Variables
 
-let UserName = "Sandro";
-console.log(UserName);
+let name = "Sandro";
+console.log(name);
 
-let UserAge = "15";
-console.log(UserAge);
+let age = 15;
+console.log(age);
 
 let hobbies = ["Coding", "Reading", "Cooking"];
 console.log(hobbies);
@@ -84,13 +84,15 @@ function start(){
     OUTPUT.innerHTML += "<p>Caution Button was clicked!</p>";
 }
 
-function getFormInput(OUTPUT){
-    const NAME_FIELD = document.getElementById("NAME_FIELD");
-    const AGE_FIELD = document.getElementById("AGE_FIELD");
-    const MONEY_FIELD = document.getElementById("MONEY_FIELD");
-
-    OUTPUT.innerHTML += "<p>Welcome to my page, " + NAME_FIELD.value + "</p>";
-    OUTPUT.innerHTML += "<p>You are " + AGE_FIELD.value + " years old.</p>";
-    OUTPUT.innerHTML += "<p>You have $" + MONEY_FIELD.value + ".</p>";
-}
-
+function getFormInput(){
+    const NAME_FIELD = document.getElementById("nameField");
+    const AGE_FIELD = document.getElementById("ageField");
+    const MONEY_FIELD = document.getElementById("moneyField");
+    
+    let userName = NAME_FIELD.value;
+    let userAge = AGE_FIELD.value;
+    let moneyField = MONEY_FIELD.value;
+    
+    OUTPUT.innerHTML += "<p>Welcome to my page, " + userName + "</p>";
+    OUTPUT.innerHTML += "<p>You are " + userAge + " years old.</p>";
+}   OUTPUT.innerHTML += "<p>You have $" + moneyField + " in your bank account.</p>";
