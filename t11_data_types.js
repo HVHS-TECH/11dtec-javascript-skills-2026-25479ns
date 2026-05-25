@@ -8,11 +8,11 @@ console.log("Working with data types in Javascript")
 
 // Variables
 
-let name = "Sandro";
-console.log(name);
+let UserName = "Sandro";
+console.log(UserName);
 
-let age = "15";
-console.log(age);
+let UserAge = "15";
+console.log(UserAge);
 
 let hobbies = ["Coding", "Reading", "Cooking"];
 console.log(hobbies);
@@ -88,12 +88,10 @@ function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     const AGE_FIELD = document.getElementById("ageField");
     const MONEY_FIELD = document.getElementById("moneyField");
-    
-    let userName = NAME_FIELD.value;
-    let userAge = AGE_FIELD.value;
-    let moneyField = MONEY_FIELD.value;
-    
-    OUTPUT.innerHTML += "<p>Welcome to my page, " +name+ "</p>";
-    OUTPUT.innerHTML += "<p>You are " +age+ " years old.</p>";
+
+
+    OUTPUT.innerHTML += "<p>Welcome to my page, " + userName + "</p>";
+    OUTPUT.innerHTML += "<p>You are " + userAge + " years old.</p>";
+    OUTPUT.innerHTML += "<p>You have $" + moneyAmount + ".</p>";
 }
 
