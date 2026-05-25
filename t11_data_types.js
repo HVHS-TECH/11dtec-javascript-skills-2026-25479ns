@@ -11,7 +11,7 @@ console.log("Working with input from HTML in Javascript")
 let name = "Sandro";
 console.log(name);
 
-let age = 15;
+let age = "15";
 console.log(age);
 
 let $$$ = 5;
@@ -89,12 +89,8 @@ function start(){
 
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
-    const AGE_FIELD = document.getElementById("ageField");
+    const AGE_FIELD = document.getElementById("age");
     const MONEY_FIELD = document.getElementById("moneyField");
-    
-    let userName = NAME_FIELD.value;
-    let userAge = AGE_FIELD.value;
-    let moneyField = MONEY_FIELD.value;
     
     OUTPUT.innerHTML += "<p>Welcome to my page, " + name + "</p>";
     OUTPUT.innerHTML += "<p>You are " + age + " years old.</p>";
