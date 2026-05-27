@@ -92,13 +92,13 @@ function getUsername(){
 }
 
 function getUserAge(){
-    const AGE_FIELD = document.getElementById("ageField");
+    const AGE_FIELD = document.getElementById("AGE_FIELD");
     let userAge = AGE_FIELD.value;
-    OUTPUT.innerHTML += "<p>You are " + userAge + " years old.</p>";
+    OUTPUT.innerHTML += "<p>You are " +age+ " years old.</p>";
 }
 
 function getMoney(){
-    const MONEY_FIELD = document.getElementById("moneyField");
+    const MONEY_FIELD = document.getElementById("MONEY_FIELD");
     let userMoney = MONEY_FIELD.value;
     OUTPUT.innerHTML += "<p>You have $" + userMoney + " in your bank account.</p>";
 }
