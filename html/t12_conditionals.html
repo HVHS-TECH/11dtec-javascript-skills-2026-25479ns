@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>T12-conditionals</title>
+  <title>T11-data types</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,30 +16,10 @@
 **************************************************************-->
 
 <body>
-  <h1>T12-conditionals</h1>
+  <h1>T11-data types</h1>
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
-
-  <button onclick="start()">Start</button><br>
-
-  <form onsubmit="return false;">
-    <label for="formName">Name:</label>
-    <input type="text" id="nameField" name="formName" placeholder="Name...">
-    <input type="submit" onClick=getUserName()>
-  </form>
-
-  <form onsubmit="return false;">
-    <label for="formAge">Age:</label>
-    <input type="text" id="ageField" name="formAge" placeholder="Age...">
-    <input type="submit" onClick=getUserAge()>
-  </form>
-
-  <form onsubmit="return false;">
-    <label for="formMoney">Pocket money:</label>
-    <input type="text" id="moneyField" name="formMoney" placeholder="$...">
-    <input type="submit" onClick=getUserMoney()>
-  </form>
 
   <div id="OUTPUT">
 
@@ -47,8 +27,19 @@
 
   </div>
 
-
   <script src="../t12_conditionals.js"></script>
+
+  <button onclick="start()">Start</button>
+  
+  <form>
+    <label for="NAME_FIELD">Enter your name:</label><br>
+    <input type="text" id="NAME_FIELD" name="formname" placeholder="Name"><br>
+    <label for="AGE_FIELD">Enter your Age:</label><br>
+    <input type="number" id="AGE_FIELD" name="formage" placeholder="Age"><br>
+    <label for="MONEY_FIELD">Enter the Amount:</label><br>
+    <input type="number" id="MONEY_FIELD" name="formamount" placeholder="Money"><br>
+    <input type="button" value="Submit" onclick="submitMoney()">
+  </form>
 
 </body>
 
