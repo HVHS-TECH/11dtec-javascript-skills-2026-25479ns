@@ -22,7 +22,6 @@
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 
   The output of your script will go here.
-  
   <div id="OUTPUT">
 
 </div>
@@ -31,15 +30,15 @@
 
   <button onclick="start()">Start</button>
   
-  <form onsubmit="return false;">
-    <label for="formName">Name:</label>
-      <input type="text" id="nameField" name="formName"><br>
-      <label for="formAge">Age:</label>
-      <input type="number" id="ageField" name="formAge"><br>
-      <label for="formMoney">Money:</label>
-      <input type="number" id="moneyField" name="formMoney"><br>
-      <input type="submit" onclick=begin()>
-    </form>
+  <form>
+    <label for="NAME_FIELD">Enter your name:</label><br>
+    <input type="text" id="NAME_FIELD" name="formname" placeholder="Name"><br>
+    <label for="AGE_FIELD">Enter your Age:</label><br>
+    <input type="number" id="AGE_FIELD" name="formage" placeholder="Age"><br>
+    <label for="MONEY_FIELD">Enter the Amount:</label><br>
+    <input type="number" id="MONEY_FIELD" name="formamount" placeholder="Money"><br>
+    <input type="button" value="Submit" onclick="submitMoney()">
+  </form>
 
 
 </body>
