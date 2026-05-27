@@ -86,7 +86,7 @@ function getFormInput(){
     let userAge = AGE_FIELD.value;
     let userMoney = MONEY_FIELD.value;
 
-    OUTPUT.innerHTML += "<h1>Welcome to my page, " + userName + "!</h1>";
+    OUTPUT.innerHTML += "<h2>Welcome to my page, " + userName + "!</h2>";
     OUTPUT.innerHTML += "<p>You are " + userAge + " years old.</p>";
     OUTPUT.innerHTML += "<p>You have $" + userMoney + " in your bank account.</p>";
 }
