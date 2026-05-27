@@ -31,15 +31,15 @@
 
   <button onclick="start()">Start</button>
   
-  <form onsubmit="return false">
-    <label for="NAME_FIELD">Enter your name:</label><br>
-    <input type="text" id="NAME_FIELD" name="formname" placeholder="Name"><br>
-    <label for="AGE_FIELD">Enter your Age:</label><br>
-    <input type="number" id="AGE_FIELD" name="formage" placeholder="Age"><br>
-    <label for="MONEY_FIELD">Enter the Amount:</label><br>
-    <input type="number" id="MONEY_FIELD" name="formamount" placeholder="Money"><br>
-    <input type="button" value="Submit" onclick="submitMoney()">
-  </form>
+  <form onsubmit="return false;">
+    <label for="formName">name:</label>
+      <input type="text" id="nameField" name="formName"><br>
+      <label for="formAge">age:</label>
+      <input type="number" id="ageField" name="formAge"><br>
+      <label for="formMoney">MONEY:</label>
+      <input type="number" id="moneyField" name="formMoney"><br>
+      <input type="submit" onclick=begin()>
+    </form>
 
 
 </body>
