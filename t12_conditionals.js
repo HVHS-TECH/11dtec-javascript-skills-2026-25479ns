@@ -47,7 +47,7 @@ console.log("divide: " + answer);
 /***************************
 Main Code
 ****************************/
-const OUTPUT = document.getElementById("OUTPUT");
+
 OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
 OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
 OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
