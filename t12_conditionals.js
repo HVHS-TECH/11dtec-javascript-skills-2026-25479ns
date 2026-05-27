@@ -88,10 +88,16 @@ function start(){
 }
 
 function getFormInput(){
-    const NAME_FIELD = document.getElementById("nameField");
-    const AGE_FIELD = document.getElementById("age");
-    const MONEY_FIELD = document.getElementById("moneyField");
-    
-    OUTPUT.innerHTML += "<p>Welcome to my page, " + name + "</p>";
-    OUTPUT.innerHTML += "<p>You are " + age + " years old.</p>";
-}   OUTPUT.innerHTML += "<p>You have $" +$$$ + " in your bank account.</p>";
+
+    const NAME_FIELD = document.getElementById("NAME_FIELD");
+    const AGE_FIELD = document.getElementById("AGE_FIELD");
+    const MONEY_FIELD = document.getElementById("MONEY_FIELD");
+
+    let userName = NAME_FIELD.value;
+    let userAge = AGE_FIELD.value;
+    let userMoney = MONEY_FIELD.value;
+
+    OUTPUT.innerHTML += "<p>Welcome to my page, " + userName + "!</p>";
+    OUTPUT.innerHTML += "<p>You are " + userAge + " years old.</p>";
+    OUTPUT.innerHTML += "<p>You have $" + userMoney + " in your bank account.</p>";
+}
