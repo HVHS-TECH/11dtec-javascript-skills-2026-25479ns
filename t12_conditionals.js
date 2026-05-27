@@ -101,8 +101,6 @@ function getFormInput(){
 }   OUTPUT.innerHTML += "<p>You have $" +$$$ + " in your bank account.</p>";
 
 
-
-
 if (age < 18){
     console.log("You are under 18 years old. Get Out!");
 }
@@ -112,5 +110,5 @@ if (age >= 18){
 }
 
 if (age == 18){
-    console.log("You are exactly 18 years old. Go get the driver's license!");
+    console.log("You are exactly 18 years old. Go get the full driver's license!");
 }
