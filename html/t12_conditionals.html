@@ -21,25 +21,34 @@
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 
-  The output of your script will go here.
-  <div id="OUTPUT">
+  <button onclick="start()">Start</button><br>
 
-</div>
-
-  <script src="../t12_conditionals.js"></script>
-
-  <button onclick="start()">Start</button>
-  
-  <form>
-    <label for="NAME_FIELD">Enter your name:</label><br>
-    <input type="text" id="NAME_FIELD" name="formname" placeholder="Name"><br>
-    <label for="AGE_FIELD">Enter your Age:</label><br>
-    <input type="number" id="AGE_FIELD" name="formage" placeholder="Age"><br>
-    <label for="MONEY_FIELD">Enter the Amount:</label><br>
-    <input type="number" id="MONEY_FIELD" name="formamount" placeholder="Money"><br>
-    <input type="button" value="Submit" onclick="submitMoney()">
+  <form onsubmit="return false;">
+    <label for="formName">Name:</label>
+    <input type="text" id="nameField" name="formName" placeholder="Name...">
+    <input type="submit" onClick=getUserName()>
   </form>
 
+  <form onsubmit="return false;">
+    <label for="formAge">Age:</label>
+    <input type="text" id="ageField" name="formAge" placeholder="Age...">
+    <input type="submit" onClick=getUserAge()>
+  </form>
+
+  <form onsubmit="return false;">
+    <label for="formMoney">Pocket money:</label>
+    <input type="text" id="moneyField" name="formMoney" placeholder="$...">
+    <input type="submit" onClick=getUserMoney()>
+  </form>
+
+  <div id="OUT">
+
+    The output of your script will go here.
+
+  </div>
+
+
+  <script src="../t12_conditionals.js"></script>
 
 </body>
 
