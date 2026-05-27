@@ -53,17 +53,6 @@ writeline();
 /***************************
 Functions
 ****************************/
-function writeline(){
-    //Add a line to the html page
-    OUTPUT.innerHTML += "<p>Welcome to the page, Sandro!</p>";
-    OUTPUT.innerHTML += "<p>You are 15 years old!</p>";
-}
-
-function displayWelcome(name, age){
-//Display a welcome message to the user
-OUTPUT.innerHTML += "<p>Welcome to the page, "+name+"! </p>";
-OUTPUT.innerHTML += "<p>You are "+age+" years old</p>";
-}
 
 var myVar = 0;
 OUTPUT.innerHTML += "Start: " + myVar + "<br>";
@@ -97,7 +86,7 @@ function getFormInput(){
     let userAge = AGE_FIELD.value;
     let userMoney = MONEY_FIELD.value;
 
-    OUTPUT.innerHTML += "<p>Welcome to my page, " + userName + "!</p>";
+    OUTPUT.innerHTML += "<h1>Welcome to my page, " + userName + "!</h1>";
     OUTPUT.innerHTML += "<p>You are " + userAge + " years old.</p>";
     OUTPUT.innerHTML += "<p>You have $" + userMoney + " in your bank account.</p>";
 }
