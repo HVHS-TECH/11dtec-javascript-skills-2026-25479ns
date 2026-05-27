@@ -63,12 +63,6 @@ function writeline(){
     OUTPUT.innerHTML += "<p>You are 15 years old!</p>";
 }
 
-function displayWelcome(name, age){
-//Display a welcome message to the user
-OUTPUT.innerHTML += "<p>Welcome to the page, "+name+"! </p>";
-OUTPUT.innerHTML += "<p>You are "+age+" years old</p>";
-}
-
 var myVar = 0;
 OUTPUT.innerHTML += "Start: " + myVar + "<br>";
 
@@ -91,11 +85,23 @@ function start(){
     OUTPUT.innerHTML += "<p>Caution Button was clicked!</p>";
 }
 
-function getFormInput(){
-    OUTPUT.innerHTML += "<p>Welcome to my page, " + name + "</p>";
-    OUTPUT.innerHTML += "<p>You are " + age + " years old.</p>";
-}   OUTPUT.innerHTML += "<p>You have $" +$$$ + " in your bank account.</p>";
+function getUsername(){
+    const NAME_FIELD = document.getElementById("NAME_FIELD");
+    let userName = NAME_FIELD.value;
+    OUTPUT.innerHTML += "<p>Your name is " + userName + ".</p>";
+}
 
+function getUserAge(){
+    const AGE_FIELD = document.getElementById("ageField");
+    let userAge = AGE_FIELD.value;
+    OUTPUT.innerHTML += "<p>You are " + userAge + " years old.</p>";
+}
+
+function getMoney(){
+    const MONEY_FIELD = document.getElementById("moneyField");
+    let userMoney = MONEY_FIELD.value;
+    OUTPUT.innerHTML += "<p>You have $" + userMoney + " in your bank account.</p>";
+}
 
 if (age < 18){
     console.log("You are under 18 years old. Get Out!");
