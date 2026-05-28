@@ -118,4 +118,5 @@ function calculateChange(itemName, itemPrice){
     change.toFixed(2) + " left.</p>";
 }
 
-let
+let chocolateArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
+OUTPUT.innerHTML = chocolateArray;
