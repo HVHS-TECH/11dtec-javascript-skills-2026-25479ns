@@ -101,13 +101,13 @@ function getFormInput(){
 
         OUTPUT.innerHTML += "<p>A chocolate bar costs $5, so you can afford one.</p>";
 
-        calculateChange("chocolateBar", 5);
-        calculateChange("chips", 4);
-        calculateChange("drink", 2.50);
+        calculateChange("Chocolate Bar", 5);
+        calculateChange("Chips", 4);
+        calculateChange("Drink", 2.50);
 
     } else {
 
-        OUTPUT.innerHTML += "<p>You cannot afford a chocolate bar.</p>";
+        OUTPUT.innerHTML += "<p>A chocolate bar costs $5, You cannot even afford a chocolate bar. Get Out!</p>";
     }
 
     return userMoney;
