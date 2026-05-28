@@ -29,10 +29,10 @@ console.log(isFlooded);
 let chocolateBar = 5;
 console.log(chocolateBar);
 
-let chips = 3;
+let chips = 4;
 console.log(chips);
 
-let drink = 2.5;
+let drink = 2.50;
 console.log(drink);
 
 var number1 = 8;
@@ -100,13 +100,14 @@ function getFormInput(){
 
 if (userMoney >=5){
   OUTPUT.innerHTML += "<p>A chocolate bar costs $5, so you can afford a chocolate bar.</p>"; 
-  calculateChange = 
-
-
-} 
+  calculateChange("chocolateBar", 5);
+  calculateChange("chips", 4);
+  calculateChange("drink", 2.50)
+}
 else{
   OUTPUT.innerHTML += "<p>A chocolate bar costs $5, You cannot even afford a chocolate bar. Get Out!</p>"; 
 }
+return userMoney;
 }
 
 
