@@ -105,7 +105,9 @@ if (userMoney >=5){
 }
 }
 
-function calculateChange()
+function calculatePay(){
+  const OUTPUT
+}
 
 
 
