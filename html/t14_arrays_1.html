@@ -21,7 +21,7 @@
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 
-  <div id="spaceForJavaScriptOutput">
+  <div id="OUTPUT">
 
     The output of your script will go here.
 
@@ -29,6 +29,24 @@
 
 
   <script src="../t14_arrays_1.js"></script>
+
+ <button onclick="start()">Start</button>
+  
+  <form>
+    <label for="NAME_FIELD">Enter your name:</label><br>
+    <input type="text" id="NAME_FIELD" name="formname" placeholder="Name"><br>
+    
+    <label for="AGE_FIELD">Enter your Age:</label><br>
+    <input type="number" id="AGE_FIELD" name="formage" placeholder="Age"><br>
+    
+    <label for="MONEY_FIELD">Enter the Amount:</label><br>
+    <input type="number" id="MONEY_FIELD" name="formamount" placeholder="Money"><br>
+    <input type="button" value="Submit" onclick="getFormInput()">
+
+    <label for="CHOOSE_FIELD">On a scale of 0-3 how much do you like chocolate</label><br>
+    <input type="number" id="CHOOSE_FIELD"
+
+  </form>
 
 </body>
 
