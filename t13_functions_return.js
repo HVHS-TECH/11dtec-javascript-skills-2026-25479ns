@@ -3,8 +3,8 @@ This is a block comment.
 Put your header comment here!
 ****************************/
 
-console.log("Running t13 function_return.js")
-console.log("Working with function return in Javascript")
+console.log("Running t13 functions_return.js")
+console.log("Working with functions return in Javascript")
 
 // Variables
 
