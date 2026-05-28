@@ -108,7 +108,7 @@ if (userMoney >=5){
 function calculatePay(){
   const OUTPUT = document.getElementById(OUTPUT);
   const MONEY_FIELD = document.getElementById("MONEY_FIELD");
-  
+  let price
 }
 
 
