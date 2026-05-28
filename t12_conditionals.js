@@ -96,3 +96,4 @@ if (userMoney >=5){
   OUTPUT.innerHTML += "<p>A chocolate bar costs $5, You cannot even afford a chocolate bar. Get Out!</p>"; 
 }
 }
+
