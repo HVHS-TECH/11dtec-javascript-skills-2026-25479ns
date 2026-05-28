@@ -103,8 +103,10 @@ if (userMoney >=5){
 } else{
   OUTPUT.innerHTML += "<p>A chocolate bar costs $5, You cannot even afford a chocolate bar. Get Out!</p>"; 
 }
-
-
-
-
 }
+
+function calculateChange()
+
+
+
+
