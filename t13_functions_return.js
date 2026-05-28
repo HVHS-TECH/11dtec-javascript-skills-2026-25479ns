@@ -56,7 +56,6 @@ OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
 OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
 OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
 OUTPUT.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this</p>";
-writeline();
 
 /***************************
 Functions
@@ -92,22 +91,40 @@ function getFormInput(){
 
     let userName = NAME_FIELD.value;
     let userAge = AGE_FIELD.value;
-    let userMoney = MONEY_FIELD.value;
+    let userMoney = parseFloat(MONEY_FIELD.value);
 
     OUTPUT.innerHTML += "<h2>Welcome to my page, " + userName + "!</h2>";
     OUTPUT.innerHTML += "<p>You are " + userAge + " years old.</p>";
     OUTPUT.innerHTML += "<p>You have $" + userMoney + " in your bank account.</p>";
 
-if (userMoney >=5){
-  OUTPUT.innerHTML += "<p>A chocolate bar costs $5, so you can afford a chocolate bar.</p>"; 
-  calculateChange("chocolateBar", 5);
-  calculateChange("chips", 4);
-  calculateChange("drink", 2.50)
+    if (userMoney >= 5){
+
+        OUTPUT.innerHTML += "<p>A chocolate bar costs $5, so you can afford one.</p>";
+
+        calculateChange("chocolateBar", 5);
+        calculateChange("chips", 4);
+        calculateChange("drink", 2.50);
+
+    } else {
+
+        OUTPUT.innerHTML += "<p>You cannot afford a chocolate bar.</p>";
+    }
+
+    return userMoney;
 }
-else{
-  OUTPUT.innerHTML += "<p>A chocolate bar costs $5, You cannot even afford a chocolate bar. Get Out!</p>"; 
-}
-return userMoney;
+
+function calculateChange(itemName, itemPrice){
+
+    const MONEY_FIELD = document.getElementById("MONEY_FIELD");
+
+    let userMoney = parseFloat(MONEY_FIELD.value);
+
+    let change = userMoney - itemPrice;
+
+    OUTPUT.innerHTML +=
+    "<p>After buying " + itemName +
+    ", you would have $" +
+    change.toFixed(2) + " left.</p>";
 }
 
 
