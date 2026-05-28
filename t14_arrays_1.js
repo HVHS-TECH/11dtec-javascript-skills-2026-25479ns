@@ -118,3 +118,4 @@ function calculateChange(itemName, itemPrice){
     change.toFixed(2) + " left.</p>";
 }
 
+let
