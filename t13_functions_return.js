@@ -104,15 +104,7 @@ if (userMoney >=5){
   OUTPUT.innerHTML += "<p>A chocolate bar costs $5, You cannot even afford a chocolate bar. Get Out!</p>"; 
 }
 
-OUTPUT.innerHTML += "<p>You have $" + userMoney.toFixed(2) + 
-". If you buy a Chocolate bar, you will get $" + 
-(userMoney - chocolateBar).toFixed(2) + " change.</p>";
 
-OUTPUT.innerHTML += "<p>You have $" + userMoney.toFixed(2) + 
-". If you buy Chips, you will get $" + 
-(userMoney - chips).toFixed(2) + " change.</p>";
 
-OUTPUT.innerHTML += "<p>You have $" + userMoney.toFixed(2) + 
-". If you buy a Drink, you will get $" + 
-(userMoney - drink).toFixed(2) + " change.</p>";
+
 }
