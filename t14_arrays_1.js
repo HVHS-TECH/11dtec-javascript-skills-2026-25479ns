@@ -119,4 +119,5 @@ function calculateChange(itemName, itemPrice){
 }
 
 let chocolateArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
-OUTPUT.innerHTML = chocolateArray;
+let choice = CHOOSE_FIELD.value;
+OUTPUT.innerHTML = "On a scale of 0-3 how much do you like chocolate"+chocolateArray[choice]+"<br>";
