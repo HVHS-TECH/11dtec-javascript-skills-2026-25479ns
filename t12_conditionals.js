@@ -26,6 +26,14 @@ console.log(clothes);
 let isFlooded = true;
 console.log(isFlooded);
 
+let chocolateBar = 5;
+console.log(chocolateBar);
+
+let chips = 3;
+console.log(chips);
+
+let drink = 2.5;
+console.log(drink);
 
 var number1 = 8;
 var number2 = 4;
@@ -96,3 +104,4 @@ if (userMoney >=5){
   OUTPUT.innerHTML += "<p>A chocolate bar costs $5, You cannot even afford a chocolate bar. Get Out!</p>"; 
 }
 }
+

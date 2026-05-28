@@ -1,1 +1,118 @@
-/* Paste your code from the last task */
+/****************************
+This is a block comment.
+Put your header comment here!
+****************************/
+
+console.log("Running t13_input_from_HTML.js")
+console.log("Working with input from HTML in Javascript")
+
+// Variables
+
+let name = "Sandro";
+console.log(name);
+
+let age = "15";
+console.log(age);
+
+let $$$ = 5;
+console.log($$$);
+
+let hobbies = ["Coding", "Reading", "Cooking"];
+console.log(hobbies);
+
+let clothes = ["T-shirt", "Jeans", "Hoddie", "Shoes"];
+console.log(clothes);
+
+let isFlooded = true;
+console.log(isFlooded);
+
+let chocolateBar = 5;
+console.log(chocolateBar);
+
+let chips = 3;
+console.log(chips);
+
+let drink = 2.5;
+console.log(drink);
+
+var number1 = 8;
+var number2 = 4;
+var answer;
+
+answer = number1 + number2;
+console.log("add: " + answer);
+answer = number1 - number2;
+console.log("subtract: " + answer);
+answer = number1 * number2;
+console.log("multiply: " + answer);
+answer = number1 / number2;
+console.log("divide: " + answer);
+
+/***************************
+Main Code
+****************************/
+const OUTPUT = document.getElementById("OUTPUT");
+OUTPUT.innerHTML += "<p>Added by JavaScript</p>";
+OUTPUT.innerHTML += "<p>Hello, Mr. Sandro!</p>";
+OUTPUT.innerHTML += "<p>Today is a good day to learn JavaScript</p>";
+OUTPUT.innerHTML += "<p>Best of luck with your 1.2 English assessment but don't worry, you've got this</p>";
+writeline();
+
+/***************************
+Functions
+****************************/
+
+var myVar = 0;
+OUTPUT.innerHTML += "Start: " + myVar + "<br>";
+
+functionOne();
+function functionOne(){
+myVar = 1;
+OUTPUT.innerHTML += "functionOne: " + myVar + "<br>";
+}
+
+functionTwo();
+function functionTwo(){
+myVar = 2;
+OUTPUT.innerHTML += "Function Two: " + myVar + "<br>";
+}
+
+OUTPUT.innerHTML += "End: " + myVar + "<br>";
+
+function start(){
+    console.log("Caution Button was clicked!");
+    OUTPUT.innerHTML += "<p>Caution Button was clicked!</p>";
+}
+
+function getFormInput(){
+
+    const NAME_FIELD = document.getElementById("NAME_FIELD");
+    const AGE_FIELD = document.getElementById("AGE_FIELD");
+    const MONEY_FIELD = document.getElementById("MONEY_FIELD");
+
+    let userName = NAME_FIELD.value;
+    let userAge = AGE_FIELD.value;
+    let userMoney = MONEY_FIELD.value;
+
+    OUTPUT.innerHTML += "<h2>Welcome to my page, " + userName + "!</h2>";
+    OUTPUT.innerHTML += "<p>You are " + userAge + " years old.</p>";
+    OUTPUT.innerHTML += "<p>You have $" + userMoney + " in your bank account.</p>";
+
+if (userMoney >=5){
+  OUTPUT.innerHTML += "<p>A chocolate bar costs $5, so you can afford a chocolate bar.</p>"; 
+} else{
+  OUTPUT.innerHTML += "<p>A chocolate bar costs $5, You cannot even afford a chocolate bar. Get Out!</p>"; 
+}
+}
+
+OUTPUT.innerHTML += "<p>You have $" + userMoney.toFixed(2) + 
+". If you buy a Chocolate bar, you will get $" + 
+(userMoney - chocolateBar).toFixed(2) + " change.</p>";
+
+OUTPUT.innerHTML += "<p>You have $" + userMoney.toFixed(2) + 
+". If you buy Chips, you will get $" + 
+(userMoney - chips).toFixed(2) + " change.</p>";
+
+OUTPUT.innerHTML += "<p>You have $" + userMoney.toFixed(2) + 
+". If you buy a Drink, you will get $" + 
+(userMoney - drink).toFixed(2) + " change.</p>";
