@@ -106,7 +106,7 @@ if (userMoney >=5){
 }
 
 function calculatePay(){
-  const OUTPUT
+  const OUTPUT = document
 }
 
 
