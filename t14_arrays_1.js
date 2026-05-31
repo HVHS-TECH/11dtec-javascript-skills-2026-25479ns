@@ -121,5 +121,10 @@ function calculateChange(itemName, itemPrice){
 cost = CHOOSE_FIELD = document.getElementById("CHOOSE_FIELD");
 
 let chocolateArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!"];
-let choice = preseCHOOSE_FIELD.value;
-OUTPUT.innerHTML = "On a scale of 0-3 how much do you like chocolate"+chocolateArray[choice]+"<br>";
+let choice = parseInt(CHOOSE_FIELD.value);
+
+if (choice >= 0 && choice <= 3){
+    OUTPUT.innerHTML += "<p>" + chocolateArray[choice] + "</p>";
+} else {
+    OUTPUT.innerHTML += "<p>Invalid choice. Please enter a number between 0 and 3.</p>";
+}
