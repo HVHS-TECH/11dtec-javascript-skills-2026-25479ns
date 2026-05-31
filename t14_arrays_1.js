@@ -101,8 +101,6 @@ function getFormInput(){
         OUTPUT.innerHTML += "<p>A chocolate bar costs $5, You cannot even afford a chocolate bar. Get Out!</p>";
     }
 
-    return userMoney;
-
 
 function calculateChange(itemName, itemPrice){
 
