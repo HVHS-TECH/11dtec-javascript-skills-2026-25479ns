@@ -118,6 +118,8 @@ function calculateChange(itemName, itemPrice){
     change.toFixed(2) + " left.</p>";
 }
 
-let chocolateArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
-let choice = CHOOSE_FIELD.value;
+cost = CHOOSE_FIELD = document.getElementById("CHOOSE_FIELD");
+
+let chocolateArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!"];
+let choice = preseCHOOSE_FIELD.value;
 OUTPUT.innerHTML = "On a scale of 0-3 how much do you like chocolate"+chocolateArray[choice]+"<br>";
