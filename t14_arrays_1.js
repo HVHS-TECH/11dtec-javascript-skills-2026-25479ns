@@ -126,4 +126,5 @@ if (choice >= 0 && choice <= 3){
 } else {
     OUTPUT.innerHTML += "<p>Invalid choice. Please enter a number between 0 and 3.</p>";
 }
+return userMoney;
 }
