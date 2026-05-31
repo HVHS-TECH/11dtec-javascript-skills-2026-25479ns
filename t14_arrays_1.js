@@ -102,7 +102,7 @@ function getFormInput(){
     }
 
     return userMoney;
-}
+
 
 function calculateChange(itemName, itemPrice){
 
@@ -127,4 +127,5 @@ if (choice >= 0 && choice <= 3){
     OUTPUT.innerHTML += "<p>" + chocolateArray[choice] + "</p>";
 } else {
     OUTPUT.innerHTML += "<p>Invalid choice. Please enter a number between 0 and 3.</p>";
+}
 }
