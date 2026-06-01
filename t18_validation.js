@@ -95,6 +95,8 @@ function getFormInput(){
         return;
     }
 
+    if (userName.trim().length )
+
     OUTPUT.innerHTML += "<h2>Welcome to my page, " + userName + "!</h2>";
     OUTPUT.innerHTML += "<p>You are " + userAge + " years old.</p>";
     OUTPUT.innerHTML += "<p>You have $" + userMoney + " in your bank account.</p>";
