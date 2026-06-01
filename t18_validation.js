@@ -87,12 +87,11 @@ function getFormInput(){
     let userName = NAME_FIELD.value;
     let userAge = AGE_FIELD.value;
     let userMoney = parseFloat(MONEY_FIELD.value);
-    let choice = parseInt(CHOOSE_FIELD.value);
 
     //VALIDATION CHECKS
 
     if (userName === ""|| userAge === "" || isNaN(userMoney)|| CHOOSE_FIELD.value === ""){
-        OUTPUT.innerHTML += "<p style='color: red;'>Please fill out all fields correctly.</p>";
+        OUTPUT.innerHTML += "<h3 style='color: red;'>Please fill out all fields correctly.</h3>";
         return;
     }
 
