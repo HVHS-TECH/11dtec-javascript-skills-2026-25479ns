@@ -76,6 +76,8 @@ function start(){
 
 function getFormInput(){
 
+    OUTPUT.innerHTML = "";
+
     const NAME_FIELD = document.getElementById("NAME_FIELD");
     const AGE_FIELD = document.getElementById("AGE_FIELD");
     const MONEY_FIELD = document.getElementById("MONEY_FIELD");
