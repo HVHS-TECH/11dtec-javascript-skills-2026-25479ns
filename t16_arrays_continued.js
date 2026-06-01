@@ -148,6 +148,5 @@ function getList(){
     for (let i = 0; i < listArray.length; i++){
         OUTPUT.innerHTML += "<p>Item " + (i + 1) + ": " + listArray[i] + "</p>";
     }
-}
 return userMoney;
 }
