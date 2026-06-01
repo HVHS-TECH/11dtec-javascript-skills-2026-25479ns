@@ -129,4 +129,10 @@ if (choice >= 0 && choice <= 3){
     OUTPUT.innerHTML += "<p>Invalid choice. Please enter a number between 0 and 3.</p>";
 }
 return userMoney;
+
+console.log("Starting Loop");
+for (count = 99; count > 0; count--){
+    console.log("Current Count: " + count);
+}
+console.log("Loop Ended");
 }
