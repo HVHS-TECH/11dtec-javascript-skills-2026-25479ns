@@ -102,7 +102,7 @@ function getFormInput(){
 
         OUTPUT.innerHTML += "<p>A chocolate bar costs $5, You cannot even afford a chocolate bar. Get Out!</p>";
     }
-
+}
 
 function calculateChange(itemName, itemPrice){
 
@@ -143,4 +143,3 @@ for (let count = 99; count > 0; count--) {
 }
 
 console.log("Loop Ended");
-}
