@@ -74,6 +74,8 @@ function start(){
     OUTPUT.innerHTML += "<p>Caution Button was clicked!</p>";
 }
 
+let listArray = [];
+
 function getFormInput(){
 
     OUTPUT.innerHTML = "";
@@ -128,8 +130,7 @@ if (choice >= 0 && choice <= 3){
 } else {
     OUTPUT.innerHTML += "<p>Invalid choice. Please enter a number between 0 and 3.</p>";
 }
-
-let listArray = [];
+}
 
 function getItem(){
     const ITEM_FIELD = document.getElementById("itemField");
