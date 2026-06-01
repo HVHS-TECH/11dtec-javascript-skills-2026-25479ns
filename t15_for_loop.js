@@ -102,7 +102,7 @@ function getFormInput(){
 
         OUTPUT.innerHTML += "<p>A chocolate bar costs $5, You cannot even afford a chocolate bar. Get Out!</p>";
     }
-}
+
 
 function calculateChange(itemName, itemPrice){
 
@@ -128,18 +128,36 @@ if (choice >= 0 && choice <= 3){
 } else {
     OUTPUT.innerHTML += "<p>Invalid choice. Please enter a number between 0 and 3.</p>";
 }
-return userMoney;
+
+const BOTTLES_FIELD =
+document.getElementById("BOTTLES_FIELD");
+
+let bottles =
+parseInt(BOTTLES_FIELD.value);
 
 console.log("Starting Loop");
 
-for (let count = 99; count > 0; count--) {
+for (let count = bottles; count > 0; count--) {
 
-    console.log(count + " bottles of milk on the wall");
-    console.log(count + " bottles of milk");
-    console.log("Take one down, pass it around");
+    OUTPUT.innerHTML +=
+    "<p>" + count +
+    " bottles of milk on the wall</p>";
 
-    console.log((count - 1) + " bottles of milk on the wall");
-    console.log("--------------------");
+    OUTPUT.innerHTML +=
+    "<p>" + count +
+    " bottles of milk</p>";
+
+    OUTPUT.innerHTML +=
+    "<p>If one of those bottles should happen to fall</p>";
+
+    OUTPUT.innerHTML +=
+    "<p>" + (count - 1) +
+    " bottles of milk on the wall.</p>";
+
+    OUTPUT.innerHTML += "<br><br>";
 }
 
 console.log("Loop Ended");
+
+return userMoney;
+}
