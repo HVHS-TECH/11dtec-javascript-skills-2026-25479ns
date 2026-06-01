@@ -95,7 +95,10 @@ function getFormInput(){
         return;
     }
 
-    if (userName.trim().length )
+    if (userName.trim().length < 3) {
+        OUTPUT.innerHTML += "<p style='color: red;'>Name must be at least 3 characters long.</p>";
+        return;
+    }
 
     OUTPUT.innerHTML += "<h2>Welcome to my page, " + userName + "!</h2>";
     OUTPUT.innerHTML += "<p>You are " + userAge + " years old.</p>";
