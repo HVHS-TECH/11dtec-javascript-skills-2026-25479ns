@@ -132,35 +132,21 @@ if (choice >= 0 && choice <= 3){
 let listArray = [];
 
 function getItem(){
-
-    const ITEM_FIELD =
-    document.getElementById("itemField");
-
+    const ITEM_FIELD = document.getElementById("itemField");
     let item = ITEM_FIELD.value;
 
     listArray.push(item);
 
-    OUTPUT.innerHTML +=
-    "<p>You have added '" +
-    item +
-    "' to the list.</p>";
+    OUTPUT.innerHTML += "<p>You have added '" + item + "' to the list.</p>";
 
     ITEM_FIELD.value = "";
 }
 
 function getList(){
-
-    OUTPUT.innerHTML +=
-    "<h3>These are the items on your shopping list:</h3>";
+    OUTPUT.innerHTML += "<h3>These are the items on your shopping list:</h3>";
 
     for (let i = 0; i < listArray.length; i++){
-
-        OUTPUT.innerHTML +=
-        "<p>Item " +
-        (i + 1) +
-        ": " +
-        listArray[i] +
-        "</p>";
+        OUTPUT.innerHTML += "<p>Item " + (i + 1) + ": " + listArray[i] + "</p>";
     }
 }
 return userMoney;
