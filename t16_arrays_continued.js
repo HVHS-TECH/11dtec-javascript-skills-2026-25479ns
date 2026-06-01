@@ -128,5 +128,21 @@ if (choice >= 0 && choice <= 3){
 } else {
     OUTPUT.innerHTML += "<p>Invalid choice. Please enter a number between 0 and 3.</p>";
 }
-return userMoney;
+
+let listArray = [];
+
+  function getItem(){
+    const ITEM_FIELD = document.getElementById("itemField");
+    let item = ITEM_FIELD.value;
+    listArray.push(item);
+    OUTPUT.innerHTML += "<p>You have added '" + item + "' to the list.</p>"
+  }
+
+// This code adds a message to the page
+
+function getList(){
+  OUTPUT.innerHTML += "<h3>These are the items on your shopping list:</h3>"
+  for (let i=0; i<listArray.length; i++){
+    OUTPUT.innerHTML += "<p>Item " + (i+1) + ": " + listArray[i] + "</p>";
 }
+return userMoney;
