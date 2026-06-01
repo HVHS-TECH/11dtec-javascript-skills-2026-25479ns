@@ -131,8 +131,16 @@ if (choice >= 0 && choice <= 3){
 return userMoney;
 
 console.log("Starting Loop");
-for (count = 99; count > 0; count--){
-    console.log("Current Count: " + count);
+
+for (let count = 99; count > 0; count--) {
+
+    console.log(count + " bottles of milk on the wall");
+    console.log(count + " bottles of milk");
+    console.log("Take one down, pass it around");
+
+    console.log((count - 1) + " bottles of milk on the wall");
+    console.log("--------------------");
 }
+
 console.log("Loop Ended");
 }
