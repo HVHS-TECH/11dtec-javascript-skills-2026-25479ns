@@ -3,8 +3,8 @@ This is a block comment.
 Put your header comment here!
 ****************************/
 
-console.log("Running t14 arrays_1.js")
-console.log("Working with arrays 1 in Javascript")
+console.log("Running t19 string_handling.js")
+console.log("Working with strings in Javascript")
 
 // Variables
 
